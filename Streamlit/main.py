@@ -36,7 +36,15 @@ st.dataframe(table)
 #st.image("C:/Users/David/Documents\GitHub/Streamlit-app-de-prueba/Streamlit/bandera Colombia.jpg",
 #caption="Esta es una imagen de la bandera de Colombia", width=500)
 
-print(Image.open('Streamlit/bandera Colombia.jpg'))
+#print(Image.open('C:/Users/David/Documents/GitHub/Streamlit-app-de-prueba/Streamlit/bandera Colombia.jpg'))
+
+#opening the image
+
+image = Image.open('C:/Users/David/Documents/GitHub/Streamlit-app-de-prueba/Streamlit/bandera Colombia.jpg')
+
+#displaying the image on streamlit app
+
+st.image(image, caption='Imagen de la bandera de Colombia')
 
 
 video_url = "https://www.youtube.com/embed/LxsMdHrNS-o"
