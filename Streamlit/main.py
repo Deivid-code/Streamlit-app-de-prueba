@@ -32,8 +32,8 @@ st.metric(label = "Wind Speed", value="120ms⁻¹", delta = "-1.4ms⁻¹")
 st.table(table)
 st.dataframe(table)
 
-st.image("mapa colombia.jpg", caption="Esta es una imagen de la bandera de Colombia",
-width=500)
+st.image("C:/Users/David/Documents/GitHub/Streamlit-app-de-prueba/Streamlit/mapa colombia.jpg",
+caption="Esta es una imagen de la bandera de Colombia", width=500)
 
 video_url = "https://www.youtube.com/embed/LxsMdHrNS-o"
 st.markdown(f'<iframe width="560" height="315" src="{video_url}" frameborder="0" allowfullscreen></iframe>', unsafe_allow_html=True)
